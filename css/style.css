@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+}
+a{
+  text-decoration: none;
+}
+.cinzel-decorative-bold{
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+header {
+  margin-top: 10px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  font-size: 15px;
+  color: #18A0FB;
+}
+nav{
+  width: 100%;  
+  display: flex;
+}
+#logohead{
+  position: relative;
+  margin-top: 4px;
+  margin-left: 4.5%;
+}
+#linkshead{
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 18px;
+  margin-left: 27%;
+  width: 22%;
+  font-size: 15px;
+  color: #18A0FB;
+}
+.aarriba{
+  color: #18A0FB;
+}
+#searchbar{
+  margin-top: 7px;
+  margin-left: 12%;
+  font-size: 15px;
+  display: flex;
+}
+button {
+  height: 40px;
+  width: 77px;
+  background-color: #18A0FB;
+  color: #fff;
+  border: none;
+  border-radius: 6px 0px 0px 6px;
+}
+input{
+  border: 1px solid #18A0FB;
+  border-radius: 0px 6px 6px 0px;
+  height: 40px; 
+  width: 233px;
+}
+footer{
+  margin-top: 5.89%;
+  height: 264px;
+  background-color: #000000CC;
+  font-size: 15px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+#logofoot{
+  margin-left: 4.76%;
+}
+#linksfoot{
+  align-items: center;
+  width: 34%;
+  margin-left: 23.3%;
+  justify-content: space-between;
+  display: flex;
+  color: #ffffff;
+}
+.aabajo{
+  color: #fff;
+}
+#empresa{
+  width: 21.6%;
+  display: flex;
+  align-items: center;
+  margin-left: 11%;
+  color: #FFFFFFCC;
+}
+#hr1{
+  margin-top: 10px;
+  width: 91.4%;
+  border: 1px solid #6de3ea;
+}
+#hr2{
+  margin-top: 193px;
+  justify-content: center;
+  width: 5.35%;
+  border: 5px solid #6DE4EA;
+  border-radius: 5px;
+}
+.hrdiv{
+  width: 100%; display: flex; justify-content: center
+}
+main{
+  margin-top: 18px;
+  width: 100%;
+}
+h1{
+  width: 21.9%;
+  margin-left: 5.23%;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: -0.015em;
+}
+#mas{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: -0.015em;
+  align-items: center;
+  margin-left: 60%;
+  color: #18A0FBCC;
+}
+#tposts{
+  width: 100%; 
+  display: flex;
+  align-items: center;
+}
+#divposts{
+  width: 100%; 
+  display: flex;
+}
+#firstpost{
+  margin-left: 6.66%;
+}
+#secondpost{
+  margin-left: 5%;
+}
+.imgmed{
+  height: 400px;
+  width: 100%;
+}
+.postmed{
+  width: 40.83%;
+  height: 655px;
+  border: 1px solid #00000080;
+  border-radius: 10px;
+}
+.postcat{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+.mtmed{
+  margin-top: 35px;
+}
+h4{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  padding-left: 7%;
+}
+.catmed{
+  font-size: 18px;
+  color: #18A0FB;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  text-align: right;
+  padding-right: 7%;
+}
+.authormed{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #6DE4EA;
+  padding-left: 7%;
+}
+.minagomed{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #00000080;
+  padding-left: 2%;
+}
+.pmed{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color:#000000CC;
+  margin-top: 30px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.postbig{
+  width: 48.45%;
+  height: 812px;
+  border: 1px solid #00000080;
+  border-radius: 10px;
+}
+#thirdpost{
+  margin-left: 6.66%;
+}
+#imgbig{
+  height: 496px;
+  width: 100%;
+}
+
+#divpostsxs{
+  margin-left: 4.58%;
+  flex-direction: column; 
+  display: flex;
+  justify-content: space-between;
+  width: 33.5%;
+}
+.postxs{
+  height: 374px;
+  width: 100%;
+  border: 1px solid #00000080;
+  border-radius: 10px;
+}
+.imgxs{
+  height: 206px;
+  width: 100%;
+}
+
+h5{
+  font-size: 18px;    
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  padding-left: 7%;
+}
+#mtbig{
+  margin-top: 43px;
+}
+.mtsm{
+  margin-top: 25px;
+}
+.pbig{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color:#000000CC;
+  margin-top: 50px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.catxs{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #18A0FB;
+  padding-right: 7%;
+}
+.pxs{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.authorxs{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  padding-left: 7%;
+  color: #6DE4EA;
+}
+.minagoxs{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  padding-left: 2%;
+  color:  #00000080;
+}
