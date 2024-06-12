@@ -1,35 +1,47 @@
-/**
-* {
+body {
     margin: 0;
     padding: 0;
-  }
-  body {
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-    background-color: #fff;
   }
   a{
     text-decoration: none;
+  }
+  header, main {
+    margin: 0 4%;
   }
   .cinzel-decorative-bold{
     font-family: "Cinzel Decorative", serif;
     font-weight: 700;
     font-size: 36px;
-    text-align: center;
   }
-  header, main {
-    margin: 0 4%;
+  #blue_font{
+    color: #18A0FB;
   }
-
-  button {
-    height: 40px;
+  nav{
+    margin-top: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul{
+      list-style: none;
+      display: flex;
+      gap: 55px;
+  }
+  #searchbar{
+    display: flex;
+  }
+  #search_button {
+    height: 42px;
     width: 77px;
     background-color: #18A0FB;
     color: #fff;
     border: none;
     border-radius: 6px 0px 0px 6px;
   }
-  input{
+  #search_input{
     border: 1px solid #18A0FB;
     border-radius: 0px 6px 6px 0px;
     height: 38px; 
@@ -39,4 +51,4 @@
     margin-top: 10px;
     width: 100%;
     border: 1px solid #6de3ea;
-  } **/
+  } 
