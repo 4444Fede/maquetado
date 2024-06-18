@@ -245,20 +245,25 @@ body {
     padding: 0 10px 0 20px;
   }
 
-  #user_container{
+  .user_container{
     text-align: center;
     color: #000000CC; 
   }
-
+  .user_container img{
+    margin-bottom: 10px;
+  }
   .readable_comment{
     margin-left: 25px;
   }
 
   .readable_comment p{
-    margin: 5px 0 19px 0;
+    margin: 0;
+    padding-top: 5px;
     color: #000000CC;
   }
-
+  .readable_comment span{
+    padding-top: 10px;
+  }
   .reply_span{
     color: #00000080;
   }
