@@ -144,7 +144,9 @@ body {
     letter-spacing: -0.015em;
     text-align: left;
   }
-
+  main article{
+    margin-bottom: 40px;
+  }
   #share_tag_container{
     margin-top: 30px;
     display: flex; 
